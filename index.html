@@ -9,6 +9,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
 </head>
 
 <body>
@@ -49,7 +51,7 @@
 
 		<div class="month-statistics">
 			<div class="left-btn">
-				<input type="image" src="./images/go-left.png">
+				<input type="image" src="./images/go-left.png" onclick="showDivs(-1)">
 			</div>
 			<div class="month">
 				<div class="month-l">
@@ -98,7 +100,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="month">
 				<div class="month-l">
 					<div class="month-l1">
@@ -146,7 +147,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="month">
 				<div class="month-l">
 					<div class="month-l1">
@@ -194,8 +194,243 @@
 					</div>
 				</div>
 			</div>
+			<div class="month">
+				<div class="month-l">
+					<div class="month-l1">
+						<p>THÁNG</p>
+					</div>
+					<div class="month-l2">
+						<p>4</p>
+					</div>
+				</div>
+				<div class="statistic-l">
+					<img src="./images/month-statistics.png" alt="Month statistics">
+					<div class="whole-text">
+						<div class="text">
+							<div class="text-1">
+								<p>Tổng số:</p>
+							</div>
+							<div class="text-2">
+								<p>3544</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Kỳ trước:</p>
+							</div>
+							<div class="text-2">
+								<p>2343</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã tiếp nhận:</p>
+							</div>
+							<div class="text-2">
+								<p>2578</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã giải quyết:</p>
+							</div>
+							<div class="text-2">
+								<p>2148</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="month">
+				<div class="month-l">
+					<div class="month-l1">
+						<p>THÁNG</p>
+					</div>
+					<div class="month-l2">
+						<p>5</p>
+					</div>
+				</div>
+				<div class="statistic-l">
+					<img src="./images/month-statistics.png" alt="Month statistics">
+					<div class="whole-text">
+						<div class="text">
+							<div class="text-1">
+								<p>Tổng số:</p>
+							</div>
+							<div class="text-2">
+								<p>3544</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Kỳ trước:</p>
+							</div>
+							<div class="text-2">
+								<p>2343</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã tiếp nhận:</p>
+							</div>
+							<div class="text-2">
+								<p>2578</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã giải quyết:</p>
+							</div>
+							<div class="text-2">
+								<p>2148</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="month">
+				<div class="month-l">
+					<div class="month-l1">
+						<p>THÁNG</p>
+					</div>
+					<div class="month-l2">
+						<p>6</p>
+					</div>
+				</div>
+				<div class="statistic-l">
+					<img src="./images/month-statistics.png" alt="Month statistics">
+					<div class="whole-text">
+						<div class="text">
+							<div class="text-1">
+								<p>Tổng số:</p>
+							</div>
+							<div class="text-2">
+								<p>3544</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Kỳ trước:</p>
+							</div>
+							<div class="text-2">
+								<p>2343</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã tiếp nhận:</p>
+							</div>
+							<div class="text-2">
+								<p>2578</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã giải quyết:</p>
+							</div>
+							<div class="text-2">
+								<p>2148</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="month">
+				<div class="month-l">
+					<div class="month-l1">
+						<p>THÁNG</p>
+					</div>
+					<div class="month-l2">
+						<p>7</p>
+					</div>
+				</div>
+				<div class="statistic-l">
+					<img src="./images/month-statistics.png" alt="Month statistics">
+					<div class="whole-text">
+						<div class="text">
+							<div class="text-1">
+								<p>Tổng số:</p>
+							</div>
+							<div class="text-2">
+								<p>3544</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Kỳ trước:</p>
+							</div>
+							<div class="text-2">
+								<p>2343</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã tiếp nhận:</p>
+							</div>
+							<div class="text-2">
+								<p>2578</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã giải quyết:</p>
+							</div>
+							<div class="text-2">
+								<p>2148</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="month">
+				<div class="month-l">
+					<div class="month-l1">
+						<p>THÁNG</p>
+					</div>
+					<div class="month-l2">
+						<p>8</p>
+					</div>
+				</div>
+				<div class="statistic-l">
+					<img src="./images/month-statistics.png" alt="Month statistics">
+					<div class="whole-text">
+						<div class="text">
+							<div class="text-1">
+								<p>Tổng số:</p>
+							</div>
+							<div class="text-2">
+								<p>3544</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Kỳ trước:</p>
+							</div>
+							<div class="text-2">
+								<p>2343</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã tiếp nhận:</p>
+							</div>
+							<div class="text-2">
+								<p>2578</p>
+							</div>
+						</div>
+						<div class="text">
+							<div class="text-1">
+								<p>Đã giải quyết:</p>
+							</div>
+							<div class="text-2">
+								<p>2148</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="right-btn">
-				<input type="image" src="./images/go-right.png">
+				<input type="image" src="./images/go-right.png" onclick="showDivs(1)">
 			</div>
 		</div>
 

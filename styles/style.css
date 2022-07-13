@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--main-white);
+    min-width: fit-content;
 }
 
 ul {
@@ -201,6 +202,10 @@ a {
     margin-left: -7rem;
     margin-right: 1rem;
     z-index: 1;
+}
+
+.month-statistics .month:first-child {
+    border: 1px solid black;
 }
 
 .docs-relate-container {
@@ -427,6 +432,10 @@ a {
 
 .table-32016 tr:nth-child(odd):not(:first-child) {
     background-color: var(--main-grey);
+}
+
+.table-32016 table td:hover {
+    background-color: var(--main-blue);
 }
 
 .charts {
